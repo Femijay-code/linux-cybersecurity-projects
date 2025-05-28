@@ -14,7 +14,7 @@ This repository contains practical Linux-based security monitoring and detection
 
 - [Auth.log SSH Login Attempts Monitoring](./linux-log-analysis/01-authlog-login-attempts)
 - [02-authlog-failed-sudo](linux-log-analysis/02-authlog-failed-sudo)
-- [03-ssh brute force detection](03-ssh-brute-force-detection)
+- [03-SSH-Brute-Force-Detection](./linux-log-analysis/03-ssh-brute-force-detection)
 
 ##  Intrusion Detection
   
