@@ -13,8 +13,9 @@ This repository contains practical Linux-based security monitoring and detection
 *Coming Soon*
 
 ## 🧪 Intrusion Detection
+  
+- [AIDE File Integrity Monitoring](./intrusion-detection/01-aide-file-integrity-monitoring)
 
-*Coming Soon*
 
 ## 🛠️ Extra Tools
 
