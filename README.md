@@ -23,7 +23,6 @@ This repository contains practical Linux-based security monitoring and detection
 - [Crontab Monitoring for Suspicious Scheduled Tasks](./intrusion-detection/03-crontab-monitoring)
 
 
-
 ##  Extra Tools
 
 *Coming Soon*
