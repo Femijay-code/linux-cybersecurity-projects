@@ -19,6 +19,8 @@ This repository contains practical Linux-based security monitoring and detection
 ##  Intrusion Detection
   
 - [AIDE File Integrity Monitoring](./intrusion-detection/01-aide-file-integrity-monitoring)
+- [Rootkit Detection with chkrootkit](./intrusion-detection/02-chkrootkit-rootkit-detection)
+
 
 
 ##  Extra Tools
