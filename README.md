@@ -1,6 +1,6 @@
 # 🐧 Linux cybersecurity Projects
 
-This repository contains practical Linux-based security monitoring and detection projects focused on Blue Team skills. Projects are grouped by tools and objectives such as auditd monitoring, log analysis, and host-based intrusion detection.
+This repository contains practical Linux-based security monitoring and detection projects. Projects are grouped by tools and objectives such as auditd monitoring, log analysis, and host-based intrusion detection.
 
 ---
 
