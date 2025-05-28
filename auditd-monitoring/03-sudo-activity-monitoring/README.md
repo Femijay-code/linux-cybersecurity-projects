@@ -21,7 +21,7 @@ To Detect and investigate all usage of the `sudo` command, including suspicious 
 
 ##  Step-by-Step Implementation
 
-### ✅ 1. Ensure `auditd` is active
+###  1. Ensure `auditd` is active
 
 ```bash
 sudo systemctl status auditd
@@ -29,7 +29,7 @@ sudo systemctl status auditd
 
 ---
 
-### ✅ 2. Added audit rule to monitor `sudo`
+###  2. Added audit rule to monitor `sudo`
 
 ```bash
 sudo auditctl -w /usr/bin/sudo -p x -k sudo-monitoring
@@ -41,7 +41,7 @@ sudo auditctl -w /usr/bin/sudo -p x -k sudo-monitoring
 
 ---
 
-### ✅ 3. Simulate `sudo` usage
+###  3. Simulate `sudo` usage
 
 ```bash
 sudo ls /
@@ -55,7 +55,7 @@ sudo rm /tmp/shadow.bak
 
 ---
 
-### ✅ 4. Search logs with ausearch
+###  4. Search logs with ausearch
 
 ```bash
 sudo ausearch -k sudo-monitoring
@@ -65,7 +65,7 @@ This displays detailed records of all `sudo` activity: user, timestamp, and comm
 
 ---
 
-## 📸 Screenshot
+##  Screenshot
 
 Below is a sample of the `ausearch` output after running monitored `sudo` commands.
 
@@ -73,7 +73,7 @@ Below is a sample of the `ausearch` output after running monitored `sudo` comman
 
 ---
 
-## ✅ Summary
+##  Summary
 
 This setup is a lightweight and effective method to detect and investigate potential privilege escalation activity.
 
