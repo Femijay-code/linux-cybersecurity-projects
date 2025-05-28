@@ -35,7 +35,7 @@ Performed a full system scan:
 sudo chkrootkit
 ```
 
-###  4. **Save Output **
+###  4. Save Output 
 
 The scan output can be saved to a file for later review:
 
@@ -45,13 +45,13 @@ sudo chkrootkit > chkrootkit-scan-report.txt
 
 ---
 
-##  **Screenshot**
+##  Screenshot
 
 ![chkrootkit scan result](./screenshot.png)
 
 ---
 
-##  **Summary**
+##  Summary
 
 The `chkrootkit` tool scanned the system for rootkit infections by checking binaries, processes, and known indicators. No infections were found during the scan, confirming the system’s integrity. This process is essential for Linux-based intrusion detection and periodic system auditing.
 
