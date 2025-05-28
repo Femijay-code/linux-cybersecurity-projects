@@ -7,6 +7,7 @@ This repository contains practical Linux-based security monitoring and detection
 ##  Auditd Monitoring
 
 - [Execve Command Tracking](./auditd-monitoring/01-execve-command-tracking)
+- [User Account/Group Changes Monitoring](./auditd-monitoring/02-user-account-monitoring)
 
 ##  Linux Log Analysis
 
