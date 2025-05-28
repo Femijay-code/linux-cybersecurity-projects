@@ -20,6 +20,7 @@ This repository contains practical Linux-based security monitoring and detection
   
 - [AIDE File Integrity Monitoring](./intrusion-detection/01-aide-file-integrity-monitoring)
 - [Rootkit Detection with chkrootkit](./intrusion-detection/02-rootkit-detection-chkrootkit)
+- [Crontab Monitoring for Suspicious Scheduled Tasks](./intrusion-detection/03-crontab-monitoring)
 
 
 
