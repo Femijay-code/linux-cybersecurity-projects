@@ -12,7 +12,7 @@ This repository contains practical Linux-based security monitoring and detection
 
 ##  Linux Log Analysis
 
-*Coming Soon*
+- [Auth.log SSH Login Attempts Monitoring](./linux-log-analysis/01-authlog-login-attempts)
 
 ##  Intrusion Detection
   
